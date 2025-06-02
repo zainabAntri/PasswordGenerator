@@ -34,7 +34,7 @@ function App() {
 
   return (
     <div
-      className="w-full max-w-xl max-auto shadow-md 
+      className="w-full max-w-xl mx-auto shadow-md 
         rounded-lg px-6 my-10 text-orange-500 bg-gray-700"
     >
       <h2 className="text-4xl text-center text-bold my-3">
@@ -74,7 +74,7 @@ function App() {
             </div>
             <label htmlFor="length"> Length: {length}</label>
           </div>
-          <div className="flex item-center gap-x-1">
+          <div className="flex items-center gap-x-1">
             <input
               type="checkbox"
               id="numberInput"
@@ -83,7 +83,7 @@ function App() {
             ></input>
             <label htmlFor="numberInput">Numbers</label>
           </div>
-          <div className="flex item-center gap-x-1">
+          <div className="flex items-center gap-x-1">
             <input
               type="checkbox"
               id="charactersInput"
